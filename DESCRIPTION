@@ -1,0 +1,19 @@
+Package: DescribeR
+Title: DescribeR
+Version: 1.0.0
+Date: 2024-03-09
+Author: Adam Saoud <saoudadam63@gmail.com>
+Maintainer: Adam Saoud <saoudadam63@gmail.com>
+Description: DescribeR is an R package designed to provide comprehensive descriptions/summaries of any data given to it, as well as be able to generate example visualizations of data (if possible) to aid in further understanding of data given.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+    plotly,
+    DescTools,
+    dplyr,
+    tidyr,
+    utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
